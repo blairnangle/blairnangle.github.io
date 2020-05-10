@@ -8,19 +8,19 @@ title: "Gotchas: Elastic Beanstalk and Cross-Account CodePipeline with CloudForm
 Building a cross-account continuous delivery pipeline for a simple Spring Boot Elastic Beanstalk app using CodePipeline 
 and CloudFormation.
 
-[Jump straight to source code.](https://github.com/blairnangle/example-cloudformation-elastic-beanstalk-codepipeline)
+[Jump straight to source code.](https://github.com/blairnangle/example-elastic-beanstalk-cross-account-codepipeline-cloudformation)
 
 ## Introduction
 
 This post will not provide step-by-step instructions for provisioning the AWS infrastructure—hopefully the 
-[source code](https://github.com/blairnangle/example-cloudformation-elastic-beanstalk-codepipeline) is reasonably self-explanatory. Instead, this post hopes to identify and document some common
+[source code](https://github.com/blairnangle/example-elastic-beanstalk-cross-account-codepipeline-cloudformation) is reasonably self-explanatory. Instead, this post hopes to identify and document some common
 gotchas.
 
 I have opted for a solution that deploys infrastructure then application code in a single pipeline.
 
 ## Prerequisites
 
-Prerequisites for using recreating the example are documented in the [GitHub project](https://github.com/blairnangle/example-cloudformation-elastic-beanstalk-codepipeline).
+Prerequisites for using recreating the example are documented in the [GitHub project](https://github.com/blairnangle/example-elastic-beanstalk-cross-account-codepipeline-cloudformation).
 
 ## Gotchas
 
