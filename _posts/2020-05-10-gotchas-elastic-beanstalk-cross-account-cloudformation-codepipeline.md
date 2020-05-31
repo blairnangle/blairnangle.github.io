@@ -2,6 +2,9 @@
 layout: post
 title: "Gotchas: Elastic Beanstalk and Cross-Account CodePipeline with CloudFormation"
 ---
+## TL;DR
+
+Just use [Terraform](https://www.terraform.io) and [CircleCI](https://circleci.com).
 
 ## Overview
 
@@ -9,10 +12,6 @@ Building a cross-account continuous delivery pipeline for a simple Spring Boot E
 and CloudFormation.
 
 [Jump straight to source code.](https://github.com/blairnangle/example-elastic-beanstalk-cross-account-codepipeline-cloudformation)
-
-## TL:DR
-
-Just use [Terraform](https://www.terraform.io) and [CircleCI](https://circleci.com).
 
 ## Introduction
 
