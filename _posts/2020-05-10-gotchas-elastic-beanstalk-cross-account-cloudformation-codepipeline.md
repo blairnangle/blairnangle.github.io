@@ -10,6 +10,10 @@ and CloudFormation.
 
 [Jump straight to source code.](https://github.com/blairnangle/example-elastic-beanstalk-cross-account-codepipeline-cloudformation)
 
+## TL:DR
+
+Just use [Terraform](https://www.terraform.io) and [CircleCI](https://circleci.com).
+
 ## Introduction
 
 This post will not provide step-by-step instructions for provisioning the AWS infrastructure—hopefully the 
