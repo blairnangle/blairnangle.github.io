@@ -1,8 +1,17 @@
-*.gem
-.bundle
-.DS_Store
-.sass-cache
-_site
-Gemfile.lock
-.jekyll-cache
+# IntelliJ
 .idea
+
+# Dependencies
+node_modules
+
+# Transpiled files
+public
+
+# Cached transpiled files
+.cache
+
+# Built files
+build
+
+# Project-specific Git commit message (to configure: git config commit.template .gitmessage)
+.gitmessage
