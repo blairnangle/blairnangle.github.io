@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/blairnangle.github.io",
   plugins: [
     {
       resolve: 'gatsby-plugin-styled-components'
