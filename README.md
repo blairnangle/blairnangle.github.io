@@ -15,7 +15,7 @@ To serve the site at `localhost:8000`:
 $ gatsby develop
 ```
 
-Or, for a custom port with more detailed output:
+Or, for a custom port and more detailed terminal output:
 
 ```bash
 $ gatsby develop --port 1990 --verbose
