@@ -14,7 +14,7 @@ const ZoomImage = ({ src, zoomSrc, alt, caption }) => {
     <figure>
       <ImageZoom
         image={{
-          src: src + "?" + Math.floor(Math.random()),
+          src: src + "?" + Math.random(),
           alt: alt || caption
         }}
         zoomImage={{
