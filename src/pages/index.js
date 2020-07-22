@@ -18,7 +18,7 @@ const photoCaptionMap = {
     amaDablam:
         {
             photo: amaDablam,
-            zoomed: amaDablamZoom,
+            zoom: amaDablamZoom,
             caption: 'Ama Dablam, Nepal. November, 2019.'
         },
 }
