@@ -9,13 +9,13 @@ import amaDablam from '../../static/images/home/ama-dablam.jpg';
 import amaDablamZoom from '../../static/images/home/ama-dablam-zoom.jpg';
 
 const photoCaptionMap = {
-    beinnChuirn:
+    one:
         {
             photo: beinnChuirn,
             zoom: beinnChuirnZoom,
             caption: 'Beinn Chùirn, Scotland. August, 2019.'
         },
-    amaDablam:
+    two:
         {
             photo: amaDablam,
             zoom: amaDablamZoom,
@@ -23,17 +23,18 @@ const photoCaptionMap = {
         },
 }
 
-const randomPhoto = () => {
-    const keys = Object.keys(photoCaptionMap);
-    return photoCaptionMap[keys[keys.length * Math.random() << 0]];
-}
-
-const aRandomPhoto = randomPhoto()
+// const randomPhoto = () => {
+//     const keys = Object.keys(photoCaptionMap);
+//     return photoCaptionMap[keys[keys.length * Math.random() << 0]];
+// }
+//
+// const aRandomPhoto = randomPhoto()
 
 const Index = () => (
     <Layout>
         <div className="home-image">
-            <ZoomImage src={aRandomPhoto.photo} zoomSrc={aRandomPhoto.zoom} caption={aRandomPhoto.caption}/>
+            <ZoomImage src={photoCaptionMap.two.photo} zoomSrc={photoCaptionMap.two.zoom}
+                       caption={photoCaptionMap.two.caption}/>
         </div>
     </Layout>
 );
